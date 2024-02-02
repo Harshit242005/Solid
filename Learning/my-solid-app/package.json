@@ -1,0 +1,23 @@
+{
+  "name": "my-solid-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8",
+    "solid-js": "^1.8.7",
+    "solid-styled-components": "^0.28.5",
+    "stitches": "^1.2.11",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-solid": "^2.8.0"
+  }
+}

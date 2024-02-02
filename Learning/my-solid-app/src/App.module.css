@@ -1,0 +1,34 @@
+.createTodo
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.createTodoInput
+{
+    width: 80%;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.createTodoInput:focus
+{
+    outline: none;
+}
+
+.createButton
+{
+    width: 20%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.createButton:hover
+{
+    background-color: rgba(0, 255, 255, 0.636);
+}
