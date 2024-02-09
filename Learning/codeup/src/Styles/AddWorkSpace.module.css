@@ -1,0 +1,38 @@
+.AddWorkSpacePopup
+{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px        ;
+}
+
+.button
+{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidepopup
+{
+    display: none;
+}
+
+.showpopup
+{
+    display: flex;
+}
