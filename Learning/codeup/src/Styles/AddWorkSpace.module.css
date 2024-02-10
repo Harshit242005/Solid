@@ -3,7 +3,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
     gap: 20px;
+    position: relative;
+    top: 100px;
+}
+
+.addWorkSpaceText
+{
+    width: 425px;
+    height: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.addWorkSpaceText:focus
+{
+    outline: none;
 }
 
 .buttons

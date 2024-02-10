@@ -15,7 +15,7 @@ function Navbar() {
     const handleButtonClick = () => {
         console.log(`current cancelClicked value is: ${togglePopup}`);
         console.log(`current toggle popup value is: ${cancelClicked}`);
-        setTogglePopup(true);
+        setTogglePopup(!togglePopup());
         SetCancelClicked(!cancelClicked);
     };
 
@@ -40,7 +40,7 @@ function Navbar() {
             )}
 
             {/* showing the add workspace here in this */}
-            <Show when={!togglePopup}>
+            <Show when={togglePopup()}>
                 <AddWorkSpaceButton />
             </Show>
         </>
