@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ReadexPro';
+  src: url('./assets/ReadexPro.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: 'ReadexPro';
+}
+
